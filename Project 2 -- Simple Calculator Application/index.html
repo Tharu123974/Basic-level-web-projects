@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h2>Simple Calculator Application</h2>
+        <form>
+            <input type="text" id = "op" readonly>
+            <br><br>
+            <input type="button" value="AC" onclick = "op.value = ''">
+            <input type="button" value="C" onclick = "op.value = Del1Char(op.value)">
+            <input type="button" value = "." onclick = "op.value +='.'">
+            <input type="button" value = "*" onclick = "op.value +='*'">
+            <br><br>
+            <input type="button" value = "7" onclick = "op.value +='7'">
+            <input type="button" value = "8" onclick = "op.value +='8'">
+            <input type="button" value = "9" onclick = "op.value +='9'">
+            <input type="button" value = "+" onclick = "op.value +='+'">
+            <br><br>
+            <input type="button" value = "4" onclick = "op.value +='4'">
+            <input type="button" value = "5" onclick = "op.value +='5'">
+            <input type="button" value = "6" onclick = "op.value +='6'">
+            <input type="button" value = "-" onclick = "op.value +='-'">
+            <br><br>
+            <input type="button" value = "1" onclick = "op.value +='1'">
+            <input type="button" value = "2" onclick = "op.value +='2'">
+            <input type="button" value = "3" onclick = "op.value +='3'">
+            <input type="button" value = "/" onclick = "op.value +='/'">
+            <br><br>
+            <input type="button" value = "0" onclick = "op.value +='0'">
+            <input type="button" value = "00" onclick = "op.value +='00'">
+            <input type="button" value = "=" onclick = "op.value = Eval(op.value)">
+        </form>
+    </body>
+</html>

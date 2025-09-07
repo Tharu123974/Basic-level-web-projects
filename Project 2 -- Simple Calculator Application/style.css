@@ -1,0 +1,21 @@
+body{
+    background-color:blanchedalmond;
+    
+    h2{
+        text-align: center;
+    }
+
+    input{
+        background-color: greenyellow;
+        border-radius: 5px;
+        width:60px;
+        font-size: 14px;
+    }
+    #op{
+        background-color: transparent;
+        border-radius: 5px;
+        width:300px;
+        font-size: 34px;
+        height:60px;
+    }
+}

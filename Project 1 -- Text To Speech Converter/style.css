@@ -1,0 +1,27 @@
+*{
+    background-color: #ffebcd;
+}
+body{
+    #getText{
+        width: 500px;
+        height: 200px;
+        font-size: 18px;
+        color:blue;
+    }
+    #getText::placeholder{
+        color:#a2a2a2;
+        font-size: 18px;
+    }
+    #convert{
+        width: 320px;
+        height: 50px;
+        background-color:#ff0000;
+        color:white;
+        text-align: center;
+        font-size: 30px;
+    }
+    #convert:hover{
+        background-color:greenyellow;
+        color:black;
+    }
+}

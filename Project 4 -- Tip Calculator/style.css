@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+    label{
+        font-size: 16px;
+        padding:5px;
+    }
+    .IPField{
+        width: 160px;
+        height: 15px;
+        font-size: 14px;
+    }
+    h1{
+        text-align: center;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-bottom: 2px;
+        padding-right: 5px;
+    }
+    h4{
+        padding: 5px;
+    }
+    .container{
+        background-color: #ffffff;
+        width: 520px;
+        height: 290px;
+        margin: 100px auto;
+    }
+    .processField{
+        background-color: #005429;
+        color: #ffffff;
+        font-size: 15px;
+        width:500px;
+        margin: 5px;
+        height: 30px;
+        text-align: center;
+    }
+    #find:hover{
+        background-color: #ffffff;
+        color: #005429;
+    }
+    #result{
+        font-size: 24px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Python code snippets with copy feature</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Python code snippets with copy feature</h1>
+    <h5>Question 1: Write a python program to print the values of ln 1 to ln 50</h5>
+    <p>Solution Code</p>
+    <code id = "C1">
+import math <br>
+for i in range(1,51): <br>
+&emsp;&emsp;&emsp;&emsp;print(f"ln {i} = {math.log(i,math.e)}")
+    </code>
+    <br>
+    <br>
+    <button onclick = CopyScript("C1")>Copy Code</button>
+    <br>
+    <p>Output</p>
+    <code id = "O1">
+ln 1 = 0.0 <br>
+ln 2 = 0.6931471805599453 <br>
+ln 3 = 1.0986122886681098 <br>
+ln 4 = 1.3862943611198906 <br>
+ln 5 = 1.6094379124341003 <br>
+ln 6 = 1.791759469228055 <br>
+ln 7 = 1.9459101490553132 <br>
+ln 8 = 2.0794415416798357 <br>
+ln 9 = 2.1972245773362196 <br>
+ln 10 = 2.302585092994046 <br>
+ln 11 = 2.3978952727983707 <br>
+ln 12 = 2.4849066497880004 <br>
+ln 13 = 2.5649493574615367 <br>
+ln 14 = 2.6390573296152584 <br>
+ln 15 = 2.70805020110221 <br>
+ln 16 = 2.772588722239781 <br>
+ln 17 = 2.833213344056216 <br>
+ln 18 = 2.8903717578961645 <br>
+ln 19 = 2.9444389791664403 <br>
+ln 20 = 2.995732273553991 <br>
+ln 21 = 3.044522437723423 <br>
+ln 22 = 3.091042453358316 <br>
+ln 23 = 3.1354942159291497 <br>
+ln 24 = 3.1780538303479458 <br>
+ln 25 = 3.2188758248682006 <br>
+ln 26 = 3.258096538021482 <br>
+ln 27 = 3.295836866004329 <br>
+ln 28 = 3.332204510175204 <br>
+ln 29 = 3.367295829986474 <br>
+ln 30 = 3.4011973816621555 <br>
+ln 31 = 3.4339872044851463 <br>
+ln 32 = 3.4657359027997265 <br>
+ln 33 = 3.4965075614664802 <br>
+ln 34 = 3.5263605246161616 <br>
+ln 35 = 3.5553480614894135 <br>
+ln 36 = 3.58351893845611 <br>
+ln 37 = 3.6109179126442243 <br>
+ln 38 = 3.6375861597263857 <br>
+ln 39 = 3.6635616461296463 <br>
+ln 40 = 3.6888794541139363 <br>
+ln 41 = 3.713572066704308 <br>
+ln 42 = 3.7376696182833684 <br>
+ln 43 = 3.7612001156935624 <br>
+ln 44 = 3.784189633918261 <br>
+ln 45 = 3.8066624897703196 <br>
+ln 46 = 3.828641396489095 <br>
+ln 47 = 3.8501476017100584 <br>
+ln 48 = 3.871201010907891 <br>
+ln 49 = 3.8918202981106265 <br>
+ln 50 = 3.912023005428146 <br>
+    </code>
+    <br>
+    <button onclick = CopyScript("O1")>Copy Output</button>
+    <br>
+    <hr>
+    <h5>Question 2: Write a python program to display any random floating point number between 2 and 4(2 and 4 not included)</h5>
+    <p>Solution Code</p>
+    <code id = "C2">
+import random <br>
+a = random.randint(2,3) <br>
+b = random.random() <br>
+c = a+b <br>
+print(f"Random number between 2 and 4: {c}") <br>
+    </code>
+    <br>
+    <button onclick = CopyScript("C2")>Copy Code</button>
+    <br>
+    <p>Output</p>
+    <code id = "O2">
+Random number between 2 and 4: 3.817596621076969
+    </code>
+    <br>
+    <br>
+    <button onclick = CopyScript("O2")>Copy Output</button>
+    <br>
+    <hr>
+</body>
+</html>

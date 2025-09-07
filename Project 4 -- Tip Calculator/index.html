@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tip Calculator</title>
+        <link rel = "stylesheet" href = "style.css">
+        <script src = "script.js"></script>
+    </head>
+    <body>
+        <div class = "container">
+            <h1>Tip Calculator</h1>
+            <h4>Enter the bill amount and tip percentage to calculate the total bill:</h4>
+            <label>Enter the bill amount:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type = "number" class = "IPField" id = "bill">
+            <br><br>
+            <label>Enter the tip percentage:</label>
+            <input type = "number" class = "IPField" id = "tip">
+            <br><br>
+            <button class = "processField" id = "find" onclick = calculateTip()>Calculate</button>
+            <br><br>
+            <label>Total:</label>
+            <span id="result"></span>
+        </div>
+    </body>
+</html>
