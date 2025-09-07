@@ -1,0 +1,19 @@
+body{
+    background-color:#454545;
+    #typetext{
+        background-color: #A0A0A0;
+        color: white;
+        width: 98%;
+        margin: 10px;
+        height:85vh;
+    }
+    button{
+        background-color: white;
+        color: black;
+        width: 200px;
+        height: 50px;
+        padding: 5px;
+        font-size: 14px;
+        margin: 15px 100px;
+    }
+}
